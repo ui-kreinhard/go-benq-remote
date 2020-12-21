@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <style>
+            .block {
+              display: block;
+              width: 100%;
+              height:20%;
+              border: none;
+              background-color: #4CAF50;
+              color: white;
+              padding: 14px 28px;
+              font-size: 32px;
+              cursor: pointer;
+              text-align: center;
+            }
+            
+            .block:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            </style>
+    </head>
+    <body>
+            <button class="block" onclick="volumeUp()">Volume +</button>
+            <h1></h1>
+            <button class="block" onclick="volumeDown()">Volume -</button>
+            <h1></h1>
+            <button class="block" onclick="brightnesUp()">Brightness +</button>
+            <h1></h1>
+            <button class="block" onclick="brightnesDown()">Brightness -</button>
+            <h1></h1>
+            <button class="block" onclick="powerOn()">On</button>
+            <h1></h1>
+            <button class="block" onclick="powerOff()">Off</button>
+    </body>
+</html>
